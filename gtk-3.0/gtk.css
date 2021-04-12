@@ -1,0 +1,290 @@
+.background
+{
+background-color:#c9ccd4;
+color:#131414;
+}
+selection,treeview:selected
+{
+background-color:#50c7fa;
+color:#dfebeb;
+}
+button
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #080b0d;
+}
+button:hover
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+button:active
+{
+background:linear-gradient(#7eb6d6,#d7e8fc);
+padding:10;
+margin:2;
+background-size:10;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+button:disabled
+{
+background:linear-gradient(#bcc0c7,#a6aab0);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #222324;
+color:85868c;
+}
+scale slider
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+min-width:12;
+min-height:12;
+margin:-10;
+border-radius:10;
+border:1 solid #080b0d;
+}
+scale slider:hover
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+min-width:12;
+min-height:12;
+margin:-10;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+scale slider:active
+{
+background:linear-gradient(#7eb6d6,#d7e8fc);
+padding:10;
+min-width:12;
+min-height:12;
+margin:-10;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+scale slider:disabled
+{
+background:linear-gradient(#bcc0c7,#a6aab0);
+padding:10;
+min-width:12;
+min-height:12;
+margin:-10;
+border-radius:10;
+border:1 solid #222324
+}
+scale
+{
+margin:12;
+min-width:10;
+min-height:10;
+background-color:#515559;
+}
+headerbar
+{
+background:linear-gradient(#c9ccd4,#b5b8bf);
+color:#131414;
+}
+progressbar progress
+{
+background:linear-gradient(#d1defc,#7292e0);
+padding:5;
+min:5;
+}
+progressbar trough
+{
+background:linear-gradient(#585c61,#5d6166);
+padding:5;
+min:5;
+}
+check,radio
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:5;
+margin:2;
+border-radius:10;
+border:1 solid #080b0d;
+}
+check:hover,radio:hover
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:5;
+margin:2;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+check:active,radio:active
+{
+background:linear-gradient(#7eb6d6,#d7e8fc);
+padding:5;
+margin:2;
+background-size:10;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+check:disabled,radio:disabled
+{
+background:linear-gradient(#bcc0c7,#a6aab0);
+padding:5;
+margin:2;
+border-radius:10;
+border:1 solid #222324;
+}
+switch
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #080b0d;
+}
+switch:hover
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+switch:checked
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+switch:checked:hover
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #080b0d;
+}
+menuitem
+{
+background-color:#b8bac2;
+padding:8;
+margin:2;
+border-radius:10;
+color:#131414;
+}
+menuitem:hover
+{
+background-color:#50c7fa;
+padding:8;
+margin:2;
+border-radius:10;
+color:#131414;
+}
+menuitem:disabled
+{
+background-color:#50c7fa;
+padding:8;
+margin:2;
+border-radius:10;
+color:85868c;
+}
+arrow
+{
+padding:2;
+background-color:#131414;
+}
+entry
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #080b0d;
+color:#131414;
+}
+entry:disabled
+{
+background:linear-gradient(#bcc0c7,#a6aab0);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #222324
+color:#131414;
+}
+treeview
+{
+background-color:#e6f5f0;
+}
+notebook header tab
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #080b0d
+}
+notebook header tab:hover
+{
+background:linear-gradient(#d7e8fc,#7eb6d6);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+notebook header tab:checked
+{
+background:linear-gradient(#7eb6d6,#d7e8fc);
+padding:10;
+margin:2;
+background-size:10;
+border-radius:10;
+border:1 solid #74a0bd;
+}
+notebook header tab:disabled
+{
+background:linear-gradient(#bcc0c7,#a6aab0);
+padding:10;
+margin:2;
+border-radius:10;
+border:1 solid #222324;
+color:85868c;
+}
+scrollbar
+{
+padding:5;
+background-color:#515559;
+}
+scrollbar slider
+{
+border:1 solid #080b0d;
+padding:10;
+border-radius:5;
+background:linear-gradient(#d7e8fc,#7eb6d6);
+}
+scrollbar slider:hover
+{
+border:1 solid #74a0bd;
+padding:10;
+border-radius:5;
+background:linear-gradient(#d7e8fc,#7eb6d6);
+}
+scrollbar slider:active
+{
+border:1 solid #74a0bd;
+padding:10;
+border-radius:5;
+background:linear-gradient(#7eb6d6,#d7e8fc);
+}
+frame
+{
+border-radius:10;
+border:solid 1px;
+border-color:#828494;
+}
