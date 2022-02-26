@@ -115,14 +115,16 @@ color:#131414;
 progressbar progress
 {
 background:linear-gradient(#d1defc,#7292e0);
-padding:5;
-min:5;
+padding:8;
+min-width:10;
+min-height:10;
+border-radius:10;
 }
 progressbar trough
 {
 background:linear-gradient(#585c61,#5d6166);
-padding:5;
-min:5;
+border-radius:10;
+margin:12;
 }
 check,radio
 {
@@ -273,6 +275,12 @@ margin:2;
 border-radius:10;
 border:1 solid #222324;
 color:85868c;
+}
+notebook stack
+{
+border-radius:10;
+border:solid 1px;
+border-color:#828494;
 }
 scrollbar
 {
